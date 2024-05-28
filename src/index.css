@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("Fonts/MinecraftRegular-Bmg3.otf");
+    font-weight: normal;
+  }
+
+  :root {
+    font-family: 'Minecraft'; 
+}
+
+body {
+  @apply text-amber-100
+}
+
+.tw-connected-wallet__address, .tw-connected-wallet__balance {
+  @apply text-black !important; 
+}
+
+button.tw-connected-wallet, button.tw-connect-wallet, button.tw-connect-wallet--switch-network {
+  border-radius: 0 !important;
+}

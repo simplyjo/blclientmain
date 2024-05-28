@@ -1,0 +1,66 @@
+{
+  "name": "blastarians",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://127.0.0.1:7500",
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@ekaruz/react-social-auth": "^0.0.3",
+    "@heroicons/react": "^2.0.18",
+    "@material-tailwind/react": "^2.0.0",
+    "@szhsin/react-accordion": "^1.2.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@thirdweb-dev/chains": "^0.1.72",
+    "@thirdweb-dev/react": "^3.14.40",
+    "@thirdweb-dev/sdk": "^3.10.59",
+    "antd": "^5.4.7",
+    "axios": "^1.6.7",
+    "browserify-zlib": "^0.2.0",
+    "dayjs": "^1.11.10",
+    "ethers": "^5.7.2",
+    "flowbite-react": "^0.4.4",
+    "install": "^0.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-headless-accordion": "^1.0.2",
+    "react-hot-toast": "^2.4.1",
+    "react-motion-animate": "^1.0.6",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.4",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "stream-browserify": "^3.0.0",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.4.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

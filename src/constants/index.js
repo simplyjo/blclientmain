@@ -1,0 +1,7 @@
+export const START_LOADING = 'START_LOADING'
+export const END_LOADING = 'END_LOADING'
+export const CHECK_WL_SUCCESS = 'CHECK_WL_SUCCESS'
+export const CHECK_WL_FAILURE = 'CHECK_WL_FAILURE'
+
+
+
