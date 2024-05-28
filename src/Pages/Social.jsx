@@ -4,7 +4,9 @@ import { Footer, Navbar } from "../Components";
 import { MotionAnimate } from "react-motion-animate";
 import { useTwitterConnection } from '@ekaruz/react-social-auth';
 
-const BASE_URL = "https://blastarians-api.onrender.com";
+// const BASE_URL = "https://blastarians-api.onrender.com";
+const BASE_URL = "https://blclientapi.onrender.com";
+
 
 const SocialCampaign = () => {
   const [address, setAddress] = useState('');
