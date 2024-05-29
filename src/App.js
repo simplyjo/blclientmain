@@ -11,7 +11,7 @@ const App = () => {
     <div className="App bg-neutral-900">
       <BrowserRouter>  
         <Routes>
-          <Route path="/" element={<Stake />} />
+          <Route path="/" element={<Home />} />
           <Route path="/social" element={<Social />} />
           <Route path="/wlchecker" element={<Wlchecker />} />
           <Route path="/stake" element={<Stake />} />
